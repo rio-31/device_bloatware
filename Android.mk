@@ -14,17 +14,6 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FirefoxLite
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_PRODUCT_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := Browser Browser2 Jelly DuckDuckGo Chrome
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := GalleryGo
 LOCAL_OVERRIDES_PACKAGES := Gallery2 Photos QPGallery
 LOCAL_MODULE_TAGS := optional
@@ -61,7 +50,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := AudioFX Jelly GoogleTTS talkback PixelLiveWallpaperPrebuilt
+LOCAL_OVERRIDES_PACKAGES := AudioFX Jelly GoogleTTS talkback PixelLiveWallpaperPrebuilt CalendarGooglePrebuilt talkback Photos SafetyHubPrebuilt TipsPrebuilt NgaResources RecorderPrebuilt arcore
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null

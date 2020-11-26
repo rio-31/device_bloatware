@@ -1,6 +1,6 @@
 # CameraGO, disabled by default
-#PRODUCT_PACKAGES += \
-#    CameraGo \
+PRODUCT_PACKAGES += \
+    CameraGo \
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
 # FirefoxLite
@@ -8,8 +8,8 @@
 #    FirefoxLite
 
 # Via Browser
-PRODUCT_PACKAGES += \
-    Via
+#PRODUCT_PACKAGES += \
+#    Via
 
 # Keyboard selection, by enabling GKeyboard you'll removing LatinIME aka AOSP default keyboard and replace it with Google Keyboard instead.	
 #PRODUCT_PACKAGES += \

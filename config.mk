@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
 
 # Via Browser
 #PRODUCT_PACKAGES += \
-#    Via
+    Via
 
 # Keyboard selection, by enabling GKeyboard you'll removing LatinIME aka AOSP default keyboard and replace it with Google Keyboard instead.	
 #PRODUCT_PACKAGES += \
@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
     GalleryGo \
-    KimchiRecorder
+    KimchiRecorder \
+    Via
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \

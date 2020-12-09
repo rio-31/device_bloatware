@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
 #    FirefoxLite
 
 # Via Browser
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     Via
 
 # Keyboard selection, by enabling GKeyboard you'll removing LatinIME aka AOSP default keyboard and replace it with Google Keyboard instead.	

@@ -1,4 +1,4 @@
-# "Device Bloatware" aka my addition app 
+# "Device Bloatware" forked from @MocaRafee big thanks to him
 
 ## Introduction
 As in the past i'm doing some rom build, sometimes i got the rom i build is missing some apps which i need.

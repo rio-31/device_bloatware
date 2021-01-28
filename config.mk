@@ -34,8 +34,7 @@ PRODUCT_PACKAGES += \
 
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
-    GalleryGo \
-    BeatPlayer
+    GalleryGo
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \

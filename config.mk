@@ -1,6 +1,6 @@
 # CameraGO, disabled by default
-PRODUCT_PACKAGES += \
-    CameraGo \
+#PRODUCT_PACKAGES += \
+#    CameraGo \
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
 # FirefoxLite
@@ -29,8 +29,8 @@ PRODUCT_PACKAGES += \
 #    GContacts
 
 # RetroMusic Player
-PRODUCT_PACKAGES += \
-    RetroMP
+#PRODUCT_PACKAGES += \
+#    RetroMP
 
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
@@ -41,5 +41,5 @@ PRODUCT_PACKAGES += \
 #    Abstruct 
 
 # Remove unused packages, by default i'm adding some LineageOS apps like audiofx, jelly, and some gapps prebuilt apps like Google TTS
-#PRODUCT_PACKAGES += \
-#    RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages

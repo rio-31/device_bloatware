@@ -11,16 +11,16 @@
 PRODUCT_PACKAGES += \
     Via
 # Lawnchair
-PRODUCT_PACKAGES += \
-    LawnChair
+#PRODUCT_PACKAGES += \
+#    LawnChair
 
 # Retro music
-PRODUCT_PACKAGES += \
-    Retro Music
+#PRODUCT_PACKAGES += \
+#    Retro Music
 
 # Keyboard selection, by enabling GKeyboard you'll removing LatinIME aka AOSP default keyboard and replace it with Google Keyboard instead.	
-#PRODUCT_PACKAGES += \
-#    GKeyboard 
+PRODUCT_PACKAGES += \
+    GKeyboard 
 
 # Gboard configuration, dont forget to uncomment this if you prefer to using GKeyboard
 #PRODUCT_PRODUCT_PROPERTIES += \
@@ -40,8 +40,7 @@ PRODUCT_PACKAGES += \
     GalleryGo \
     KimchiRecorder \
     Via \
-    LawnChair \
-    Retro Music
+    GKeyboard
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
